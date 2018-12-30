@@ -25,8 +25,8 @@ scripts/*.py~
 scripts/test_image.png
 
 # ignore thumnail generation
-scripts/ressources/effects/new_thumbs/
-scripts/ressources/effects/effects_snaps/
+scripts/resources/effects/new_thumbs/
+scripts/resources/effects/effects_snaps/
 
 # ignore sendmail log
 sendmail.log

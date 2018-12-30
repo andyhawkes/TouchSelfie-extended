@@ -55,13 +55,13 @@ EFFECTS_PARAMETERS = {
 # Path to icons for the software buttons (no hardware buttons setup)
 SOFTWARE_BUTTONS = {
     "None": {
-        "icon" : os.path.join("ressources","ic_photo.png")
+        "icon" : os.path.join("resources","ic_photo.png")
         },
     "Four": {
-        "icon" : os.path.join("ressources","ic_portrait.png")
+        "icon" : os.path.join("resources","ic_portrait.png")
         },
     "Animation": {
-        "icon" : os.path.join("ressources","ic_anim.png")
+        "icon" : os.path.join("resources","ic_anim.png")
         }
 }
 
@@ -74,7 +74,7 @@ SOFTWARE_BUTTONS = {
 # - "effect_name": the name of the piCamera image_effect
 # - "effect_icon": path to the thumbnail that represents this effect (MUST be square)
 # - "effect_params": (opt) parameters for the effect (see image_effect_parameter)
-EFFECTS_THUMB_DIR = os.path.join("ressources","effects")
+EFFECTS_THUMB_DIR = os.path.join("resources","effects")
 # ordered list of IMAGE_EFFECTS keys (only these will be displayed)
 IMAGE_EFFECTS_LIST = [
     "none",
@@ -184,19 +184,19 @@ ACTIONS_KEYS_MAPPING = {
 # last image of the list will be used for greater counts
 # (e.g. during the first 5 secs of a 10 secs countdown in this case)
 COUNTDOWN_OVERLAY_IMAGES=[
-    os.path.join("ressources","count_down_1.png"),
-    os.path.join("ressources","count_down_2.png"),
-    os.path.join("ressources","count_down_3.png"),
-    os.path.join("ressources","count_down_4.png"),
-    os.path.join("ressources","count_down_5.png"),
-    os.path.join("ressources","count_down_ready.png")]
+    os.path.join("resources","count_down_1.png"),
+    os.path.join("resources","count_down_2.png"),
+    os.path.join("resources","count_down_3.png"),
+    os.path.join("resources","count_down_4.png"),
+    os.path.join("resources","count_down_5.png"),
+    os.path.join("resources","count_down_ready.png")]
 # this defines the height ratio of the countdown images wrt. the preview size
 COUNTDOWN_IMAGE_MAX_HEIGHT_RATIO = 0.2 #[0. - 1.] range
 
-# Path to button icon ressources
-EMAIL_BUTTON_IMG  = os.path.join("ressources","ic_email.png")
-PRINT_BUTTON_IMG  = os.path.join("ressources","ic_print.png")
-EFFECTS_BUTTON_IMG = os.path.join("ressources","ic_effects.png")
+# Path to button icon resources
+EMAIL_BUTTON_IMG  = os.path.join("resources","ic_email.png")
+PRINT_BUTTON_IMG  = os.path.join("resources","ic_print.png")
+EFFECTS_BUTTON_IMG = os.path.join("resources","ic_effects.png")
 
 # Interval in ms between two authentication tokens refreshing
 OAUTH2_REFRESH_PERIOD = 1800000 # interval between two OAuth2 token refresh (ms)
